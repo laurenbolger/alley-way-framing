@@ -103,13 +103,13 @@ textarea {
 }
 
 body {
-    font-family: "adelle";
+    font-family: adelle, Georgia, "Times New Roman", serif;
     line-height: 1.6;
 }
 
 h2 {
     margin-bottom: 1.5em;
-    font-family: brandon-grotesque;
+    font-family: brandon-grotesque, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 24px;
     font-style: italic;
     font-weight: 300;
@@ -167,7 +167,7 @@ a:focus {
 
 .nav-top li {
     border-top: 2px solid #db5d44;
-    font-family: "brandon-grotesque";
+    font-family: brandon-grotesque, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.08em;
@@ -208,7 +208,7 @@ a:focus {
     display: inline-block;
     margin: 0;
     color: #3b3b3f;
-    font-family: "brandon-grotesque";
+    font-family: brandon-grotesque, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 75px;
     font-weight: 800;     
     text-transform: uppercase;
@@ -227,11 +227,16 @@ a:focus {
 }
 
 .framing {
-    font-family: bistro-script-web;
+    font-family: bistro-script-web, Georgia, "Times New Roman", serif;
     letter-spacing: 0;
     font-size: 1em;
     font-weight: 400;
     text-transform: none;
+}
+
+.wf-inactive .alley {
+    right: 2.85em;
+    top: 0.6em;
 }
 
 .hero {
@@ -412,6 +417,10 @@ a:focus {
     width: 50px;
     z-index: 1;
     background: #fdfbdf;
+}
+
+.no-csstransforms .services-img-corner {
+    display: none;
 }
 
 .services-img-corner-tl {
@@ -611,7 +620,7 @@ address {
 .copyright {
     margin: 24px 0 0;
     font-size: 13px;
-    font-family: brandon-grotesque;
+    font-family: brandon-grotesque, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 600;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -786,6 +795,13 @@ address {
         padding-left: 42px;
     }
 
+    /*Services*/
+
+    .services-img-container {
+        display: block;
+    }
+
+
 }
 
 @media only screen and (min-width: 700px) {
@@ -802,12 +818,6 @@ address {
         padding-top: 0;
         padding-left: 42px;
     } 
-
-/*Services*/
-
-    .services-img-container {
-        display: block;
-    }
 
 }
 

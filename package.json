@@ -1,0 +1,25 @@
+{
+  "name": "alley-way",
+  "version": "0.0.0",
+  "description": "HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laurenbolger/alley-way-framing.git"
+  },
+  "author": "",
+  "license": "Private",
+  "bugs": {
+    "url": "https://github.com/laurenbolger/alley-way-framing/issues"
+  },
+  "homepage": "https://github.com/laurenbolger/alley-way-framing",
+  "devDependencies": {
+    "minify": "~1.0.2"
+  }
+}
